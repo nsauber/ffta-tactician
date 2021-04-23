@@ -10,7 +10,7 @@ export default function App() {
     <>
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link className="navbar-brand" to="/">FFTA Tactitian</Link>
+        <Link className="navbar-brand" to="/">FFTA Tactician</Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon" />
