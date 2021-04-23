@@ -1,47 +1,40 @@
 import './App.css';
 import { Link, Switch, Route } from "react-router-dom";
 
-const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
-);
-
-const Category = () => (
-  <div>
-    <h2>Category</h2>
-  </div>
-);
-
-const Products = () => (
-  <div>
-    <h2>Products</h2>
-  </div>
-);
+const Home = () => ( <h2>Home</h2> );
+const Category = () => ( <h2>Category</h2> );
+const Products = () => ( <h2>Products</h2> );
 
 export default function App() {
   return (
-    <div>
-      <nav className="navbar navbar-light">
-        <ul className="nav navbar-nav">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/category">Category</Link>
-          </li>
-          <li>
-            <Link to="/products">Products</Link>
-          </li>
-        </ul>
+    <>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <Link className="navbar-brand" to="/">FFTA Tactitian</Link>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" />
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <Link className="nav-link" to="/category">Category</Link>
+            </li>
+            <li class="nav-item">
+              <Link className="nav-link" to="/products">Products</Link>
+            </li>
+          </ul>
+        </div>
       </nav>
 
-      <Switch>
-        <Route exact path="/"><Home /></Route>
-        <Route path="/category"><Category /></Route>
-        <Route path="/products"><Products /></Route>
-        <Route render={() => <h1>404: page not found</h1>} />
-      </Switch>
-    </div>
+      <div className="container-fluid">
+        <Switch>
+          <Route exact path="/"><Home /></Route>
+          <Route path="/category"><Category /></Route>
+          <Route path="/products"><Products /></Route>
+          <Route render={() => <h1>404: page not found</h1>} />
+        </Switch>
+      </div>
+    </>
   );
 }
