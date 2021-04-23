@@ -7,6 +7,7 @@ FFTA FAQS
 * [Quests Guide](https://gamefaqs.gamespot.com/gba/560436-final-fantasy-tactics-advance/faqs/27277) - main reference for quest data
 * [Walkthrough by Dark Vortex](https://gamefaqs.gamespot.com/gba/560436-final-fantasy-tactics-advance/faqs/33671)
 * [Job Hierarchy (image)](https://gamefaqs.gamespot.com/gba/560436-final-fantasy-tactics-advance/map/1000-job-hierarchy)
+* [Calendar system](https://finalfantasy.fandom.com/wiki/Calendar_system#Final_Fantasy_Tactics_Advance)
 
 
 ### Dev Reference
