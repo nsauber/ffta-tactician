@@ -21,9 +21,14 @@ Bootstrap
 * https://sebhastian.com/adding-bootstrap-to-react/
 
 React Router
+* [Official React Router quick start guide](https://reactrouter.com/web/guides/quick-start)
 * https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks/
 * https://www.sitepoint.com/react-router-complete-guide/
+* https://codesandbox.io/examples/package/react-router
 
 React and Redux (state management)
+* [Official Redux getting started guide](https://redux.js.org/introduction/getting-started) - _core Redux library, independent of React_
+* [Official React-Redux getting started guide](https://react-redux.js.org/introduction/getting-started) - _for integrating Redux into React apps_
+* [The three principles of Redux](https://redux.js.org/understanding/thinking-in-redux/three-principles)
 * https://tsh.io/blog/react-state-management-react-hooks-vs-redux/
 
