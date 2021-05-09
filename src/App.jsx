@@ -1,5 +1,5 @@
 import './App.css';
-import { Link, Switch, Route } from "react-router-dom";
+import { Link, NavLink, Switch, Route } from "react-router-dom";
 
 const Home = () => ( <h2>Home</h2> );
 const Missions = () => ( <h2>Missions</h2> );
@@ -19,10 +19,10 @@ export default function App() {
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="navbar-nav">
-            <Link className="nav-link" to="/missions">Missions</Link>
-            <Link className="nav-link" to="/rumors">Rumors</Link>
-            <Link className="nav-link" to="/items">Items</Link>
-            <Link className="nav-link" to="/clan">Clan</Link>
+            <NavLink className="nav-link" activeClassName="active" to="/missions">Missions</NavLink>
+            <NavLink className="nav-link" activeClassName="active" to="/rumors">Rumors</NavLink>
+            <NavLink className="nav-link" activeClassName="active" to="/items">Items</NavLink>
+            <NavLink className="nav-link" activeClassName="active" to="/clan">Clan</NavLink>
           </div>
         </div>
       </nav>
